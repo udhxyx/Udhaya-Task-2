@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Social Media Frontend</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Social Media</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Messages</a></li>
+        <li><a href="#">Notifications</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>News Feed</h2>
+      <ul>
+        <li>
+          <img src="https://via.placeholder.com/150x150.png" alt="Profile Picture">
+          <div>
+            <h3>John Doe</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </li>
+        <li>
+          <img src="https://via.placeholder.com/150x150.png" alt="Profile Picture">
+          <div>
+            <h3>Jane Doe</h3>
+            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <aside>
+      <h2>Trending</h2>
+      <ul>
+        <li><a href="#">#socialmedia</a></li>
+        <li><a href="#">#technology</a></li>
+        <li><a href="#">#design</a></li>
+      </ul>
+    </aside>
+  </main>
+  <footer>
+    <p>&copy; 2023 Social Media. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+section {
+  flex: 2;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+aside {
+  flex: 1;
+}
+
+footer {
+  background-color
